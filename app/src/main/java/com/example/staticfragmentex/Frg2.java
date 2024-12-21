@@ -15,9 +15,9 @@ public class Frg2 extends Fragment {
         // Required empty public constructor
     }
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(LayoutInflater i, ViewGroup c,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_frg2, container, false);
+        return i.inflate(R.layout.fragment_frg2, c, false);
     }
 }
